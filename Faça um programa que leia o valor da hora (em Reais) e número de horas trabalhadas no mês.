@@ -1,0 +1,11 @@
+# 41 - Faça um programa que leia o valor da hora (em Reais) e número de horas trabalhadas no mês. Imprima o valor a ser
+# pago, adicionando 10% sobre o calculado.
+
+vh = float(input('Informe o valor de sua hora de trabalho: '))
+nh = float(input('Informe a quantidade de horas trabalhadas: '))
+
+v = (vh * nh) * 1.10
+print(f'O valor a ser pago é R$ {round(v, 2)}')
+
+# Nota - O round serve para limitar a quantidade de casas decimais, nesse caso foi limitado para duas, por issso do
+# , 2 ser adicionado após a variável há ser informado
